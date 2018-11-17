@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src-tools", "src-tools", "{30547B62-EBD7-46D0-9B56-78D8B6CA310B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src-apps", "src-apps", "{5967459D-7031-4926-A846-46602E7D886F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src-references", "src-references", "{4E0183E4-6234-43BF-B97A-4FC533B0B250}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src-libs", "src-libs", "{1CAA77FE-C608-449A-B4F3-D35FAE5E294F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "libs\common\common.vcxproj", "{94E7411E-AFCC-44A4-96CF-9A539B7875A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Debug|x64.ActiveCfg = Debug|x64
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Debug|x64.Build.0 = Debug|x64
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Debug|x86.Build.0 = Debug|Win32
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Release|x64.ActiveCfg = Release|x64
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Release|x64.Build.0 = Release|x64
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Release|x86.ActiveCfg = Release|Win32
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94E7411E-AFCC-44A4-96CF-9A539B7875A1} = {1CAA77FE-C608-449A-B4F3-D35FAE5E294F}
+	EndGlobalSection
+EndGlobal
